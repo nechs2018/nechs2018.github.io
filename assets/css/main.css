@@ -3569,27 +3569,33 @@
 		}
 
 		#main table tbody tr {
-			border-color: #dddddd;
+			/* border-color: #dddddd; */
+			border-color: rgba(0, 0, 0, 0.0);
 		}
 
 			#main table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(222, 222, 222, 0.25);
+				background-color: rgba(222, 222, 222, 0.25); 
+				/* background-color: rgba(0, 0, 0, 0.0); */
 			}
 
 		#main table th {
-			color: #636363;
+			/* color: #636363; */
+			color: rgba(0, 0, 0, 0.0);
 		}
 
 		#main table thead {
-			border-bottom-color: #dddddd;
+			/* border-bottom-color: #dddddd; */
+			border-bottom-color: rgba(0, 0, 0, 0.0);
 		}
 
 		#main table tfoot {
-			border-top-color: #dddddd;
+			/* border-top-color: #dddddd; */
+			border-top-color: rgba(0, 0, 0, 0.0);
 		}
 
 		#main table.alt tbody tr td {
-			border-color: #dddddd;
+			/* border-color: #dddddd; */
+			border-color: rgba(0, 0, 0, 0.0);
 		}
 
 		#main .spotlight .image {
